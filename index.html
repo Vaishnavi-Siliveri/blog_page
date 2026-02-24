@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Bootstrap Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= BLOG SECTION ================= -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Latest Blog Posts</h2>
+
+    <div class="row g-4">
+
+        <!-- Blog Card 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Technology">
+                <div class="card-body">
+                    <h5 class="card-title">Technology Trends</h5>
+                    <p class="card-text">Discover the latest trends in AI, Web Development, and emerging technologies shaping the future.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Coding">
+                <div class="card-body">
+                    <h5 class="card-title">Learn Programming</h5>
+                    <p class="card-text">Start your coding journey with Python, Java, and modern frontend frameworks.</p>
+                    <a href="#" class="btn btn-success">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Design">
+                <div class="card-body">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text">Learn how to design beautiful and user-friendly web interfaces using modern tools.</p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-3">© 2026 MyBlog. All rights reserved.</p>
+
+        <div>
+            <!-- Facebook Logo -->
+            <a href="#" class="me-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                     alt="Facebook" width="30">
+            </a>
+
+            <!-- Twitter Logo -->
+            <a href="#" class="me-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg"
+                     alt="Twitter" width="30">
+            </a>
+
+            <!-- Instagram Logo -->
+            <a href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                     alt="Instagram" width="30">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap 5 JS Bundle CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
